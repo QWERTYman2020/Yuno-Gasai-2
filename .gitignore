@@ -1,0 +1,9 @@
+#Ignore config files
+config.json
+
+#Ignore folders
+/node_modules/
+.vscode/
+
+#Ignoring specific file extensions
+*.db
