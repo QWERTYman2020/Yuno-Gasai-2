@@ -29,6 +29,7 @@ const Util = require("util"),
     fs = require("fs"),
     path = require("path"),
     EventEmitter = require("events"),
+    popura = require('popura'),
     {Client} = require("discord.js");
 
 let ModuleExporter = (require("./ModuleExporter.js")).init(),
@@ -97,6 +98,8 @@ let Yuno = function() {
     this.prompt.info("Yuno " + this.version + " initialised.")
 
     this.hotreloadDisabledReasons = {};
+
+    this.animeClient = popura(this.DEFAULT_CONFIG_FILE.mal.user, this.DEFAULT_CONFIG_FILE.mal.password)
 
     this.UTIL = ModuleExporter.requireAndRef("./Util").on("done", (function(module) {
         this.UTIL = module;
