@@ -1,0 +1,21 @@
+[
+    ["It is certian.",                "00FF00"],
+    ["It is decidedly so.",           "00FF00"],
+    ["Without a doubt.",              "00FF00"],
+    ["Yes, definitely.",              "00FF00"],
+    ["As I see it, yes.",             "00FF00"],
+    ["Most likely.",                  "00FF00"],
+    ["Outlook good.",                 "00FF00"],
+    ["Yes.",                          "00FF00"],
+    ["Signs point to yes.",           "00FF00"],
+    ["Reply hazy, try again.",        "00FF00"],
+    ["Ask again later.",              "FFFF00"],
+    ["Better not tell you now.",      "FFFF00"],
+    ["Cannot predict now.",           "FFFF00"],
+    ["Concentrate and ask again.",    "FFFF00"],
+    ["Don't count on it.",            "FFFF00"],
+    ["My reply is no.",               "FFFF00"],
+    ["My sources say no.",            "FFFF00"],
+    ["Outlook not so good.",          "FFFF00"],
+    ["Very doubtful.",                "FFFF00"]
+]
